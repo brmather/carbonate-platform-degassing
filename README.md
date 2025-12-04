@@ -15,8 +15,6 @@ The main steps are:
 4. __Notebook 4__ (part 1): Compute the rate of hydrous mantle melting from the concentration of water in the mantle wedge, contributed by slab devolatilisation.
 5. __Notebook 4__ (part 2): Scale the present-day emissions of carbonate platforms by the melting rate back through time.
 
-
-
 ## Dependencies
 
 The following Python dependencies are required to run the notebooks:
@@ -27,5 +25,5 @@ The following Python dependencies are required to run the notebooks:
 - pandas
 - joblib
 
-Supplementary input data from Zenodo is required to be extracted into the "Data" folder.
+[Supplementary input data](https://doi.org/10.5281/zenodo.15315706) from Zenodo is required to be extracted into the "Data" folder.
 This includes the plate reconstruction model files and associated netCDF4 grids (seafloor age grids, spreading rate grids, sediment thickness grids).
