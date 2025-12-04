@@ -5,7 +5,7 @@ The workflows in this repository can be used to reproduce findings in the journa
 
 > Mather, B., Müller, D., Dutkiewicz, A., & Zahirovic, S. Carbon emissions along divergent plate boundaries modulate icehouse-greenhouse climates. Communications Earth and Environment. 2025.
 
-## Workflow
+## Main workflow
 
 The main steps are:
 
@@ -15,7 +15,7 @@ The main steps are:
 4. __Notebook 4__ (part 1): Compute the rate of hydrous mantle melting from the concentration of water in the mantle wedge, contributed by slab devolatilisation.
 5. __Notebook 4__ (part 2): Scale the present-day emissions of carbonate platforms by the melting rate back through time.
 
-## Dependencies
+## Software dependencies
 
 The following Python dependencies are required to run the notebooks:
 
@@ -24,6 +24,21 @@ The following Python dependencies are required to run the notebooks:
 - [slabdip](https://github.com/brmather/Slab-Dip)
 - pandas
 - joblib
+
+Install `gplately`, `pandas` and `joblib` using conda:
+
+```sh
+conda install gplately pandas joblib -c conda-forge
+```
+
+Then, install `melt` and `slabdip` using pip:
+
+```sh
+pip install git+https://github.com/brmather/melt.git
+pip install git+https://github.com/brmather/Slab-Dip.git
+```
+
+## Data dependencies
 
 [Supplementary input data](https://doi.org/10.5281/zenodo.15315706) from Zenodo is required to be extracted into the "Data" folder.
 This includes the plate reconstruction model files and associated netCDF4 grids (seafloor age grids, spreading rate grids, sediment thickness grids).
