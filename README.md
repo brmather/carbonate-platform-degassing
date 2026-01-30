@@ -3,7 +3,7 @@
 This is a Python-based workflow for computing the rates of carbon emissions from carbonate platforms through geological time.
 The workflows in this repository can be used to reproduce findings in the journal article,
 
-> Mather, B., Müller, D., Dutkiewicz, A., & Zahirovic, S. Carbon emissions along divergent plate boundaries modulate icehouse-greenhouse climates. Communications Earth and Environment. 2025.
+> Mather, B., Müller, D., Dutkiewicz, A., & Zahirovic, S. Carbon emissions along divergent plate boundaries modulate icehouse-greenhouse climates. Communications Earth and Environment. 2026 __7__ _(48)_ pp. 1-10.  [https://doi.org/10.1038/s43247-025-03097-0](https://doi.org/10.1038/s43247-025-03097-0)
 
 ## Main workflow
 
